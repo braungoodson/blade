@@ -13,3 +13,8 @@ prototype requirements
 =====
 
 you'll need a video-001.mp4 in the directory
+
+to compile
+=====
+
+	$ ../apache-flex-sdk/bin/mxmlc -use-network=false ./Blade.as
