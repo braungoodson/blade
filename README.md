@@ -24,7 +24,9 @@ apache flex sdk
 to compile
 =====
 
-	$ ../apache-flex-sdk/bin/mxmlc -use-network=false ./Blade.as
+	* legacy
+
+		$ ../apache-flex-sdk/bin/mxmlc -use-network=false ./Blade.as
 
 
 references
