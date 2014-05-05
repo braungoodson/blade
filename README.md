@@ -24,8 +24,18 @@ apache flex sdk
 to compile
 =====
 
-	$ ../apache-flex-sdk/bin/mxmlc -use-network=false ./Blade.as
+		$ ../apache-flex-sdk/bin/mxmlc -use-network=false ./Blade.as
 
+
+use grunt
+=====
+
+changes to Blade.js will trigger compilation; compilation will trigger opening Blade.swf
+
+	$ npm install
+	 ...
+	$ grunt
+	 ...
 
 references
 =====
